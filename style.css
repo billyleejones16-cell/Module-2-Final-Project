@@ -266,16 +266,12 @@ FEATURES ↓
     text-transform: uppercase;
 }
 
-#features .section__title,
-#pricing .section__title {
-    text-align: center;
-}
-
 .section__title {
     font-weight: 900;
     color: rgb(36, 62, 99);
     margin: 16px 0;
     letter-spacing: 0.025em;
+    text-align: center;
 }
 
 #features .section__para {
@@ -344,6 +340,7 @@ QUALITY WORK ↓
     color: rgba(100, 21, 255, var(--tw-text-opacity));
     z-index: 0;
     display: block;
+
 }
 
 #quality .row {
@@ -511,6 +508,10 @@ MOBILE RESPONSIVENESS ↓
     .features {
         max-width: 768px;
     }
+    .feature{
+        width: auto;
+        max-width: 384px;
+    }
     .feature__row {
         padding: 32px 8px;
         margin: 0 16px;
@@ -604,12 +605,9 @@ MOBILE RESPONSIVENESS ↓
         font-size: 14px;
         letter-spacing: 0.5em;
     }
-    #features .section__title,
-    #pricing .section__title {
-       font-size: 36px; 
-    }
     .section__title {
         line-height: 1.25;
+        font-size: 36px;
     }
     .feature__row {
         flex-direction: column;
